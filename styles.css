@@ -1,0 +1,273 @@
+.PL, .PP2, .NVL {
+  margin-bottom: 15rem;
+}
+
+
+.navbar{
+  font-family: 'Roboto', sans-serif;
+}
+
+hr{
+    width: 5%;
+    border-width: 10px;
+    border-style: none;
+    border-top: solid;
+    border-color: rgb(10, 116, 134);
+    position: absolute;
+    right: 48%;
+}
+
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: rgb(10, 116, 134);
+  text-align: center;
+  padding-top: 6rem;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+#Upper{
+    background-image: url(bgg.png);
+    background-size: cover;
+    object-position: 15% 100%;
+    height: max-content;
+    color: rgb(234, 237, 238);
+    padding: 5rem 0 0 5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 0.25px 0.25px 0 #080808;
+}
+
+.PNPLogo{
+  size:10px
+}
+
+
+h1{
+    font-size: 5rem;
+    padding: 5rem 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0 #080808;
+}
+/* btn */
+.button {
+  padding: 0.75em 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+}
+
+button:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #03b15a;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #03b15a;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+button:hover::before {
+  width: 250%;
+}
+
+/* btn2 */
+.button2 {
+  padding: 0.48em 1em;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ff6f69;
+  transition: all 500ms;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #ff6f69;
+}
+
+.button2:hover {
+  color: #ffffff;
+  transform: scale(1.05);
+  outline: 2px solid #ff6f69;
+  box-shadow: 2px 3px 10px -2px #ff6f69;
+}
+
+.button2::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #ff6f69;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 500ms;
+}
+
+.button2:hover::before {
+  width: 200%;
+}
+
+/* drpdwn */
+.custom-select {
+	position: relative;
+  text-align: center;
+  padding-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.custom-select select {
+  font-family: 'Open Sans', sans-serif;
+	appearance: none;
+	-webkit-appearance: none;
+	width: auto;
+	font-size: 18px;
+	padding: 5px 10px 5px 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	color: #000000;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+}
+
+.custom-select select:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 5px;
+}
+
+.custom-select::after {
+	content: "";
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	right: 10px;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+}
+
+/* drpdwn */
+
+/* CN */
+.CN{
+  font-family: 'Open Sans', sans-serif;
+	appearance: none;
+	-webkit-appearance: none;
+	width: auto;
+	font-size: 18px;
+	padding: 5px 10px 5px 10px;
+	background-color: #FFFFFF;
+	border: 1px solid #C4D1EB;
+	border-radius: 5px;
+	color: #000000;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+}
+.srchico{
+ height: 40px;
+ width: 40px;
+ padding-bottom: 5px;
+ cursor: pointer;
+}
+
+/* CN */
+
+
+
+/* NVPPO Offial */
+#NVPPO-Officials{
+  font-family: 'Roboto', sans-serif;
+  color: rgb(10, 116, 134);
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.frames{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ccc;
+  background: #eee;
+  border-radius: 50%;
+}
+
+.PD,.DPDA,.DPDO{
+  margin-bottom: 0;
+}
+
+.fm{
+  margin-bottom: 6rem;
+}
+
+/* NVPPO Offial */
+
+
+/* Contact-Us */
+#Contact-Us {
+  height:max-content;
+  width: 100%;
+  background-color: #eee;
+}
+
+.text-center{
+  width: 100%;
+  height: 100%;
+}
+
+.rounded{
+  width: 5rem;
+  padding-top: 4.5rem;
+}
+
+.footer{
+  text-align: center;
+  padding: 2rem 2rem 1rem 2rem;
+  line-height: 1rem;
+}
+
+.fa-brands{
+  color:#797ef6;
+  padding-bottom: 6rem;
+}
+
+/* Contact-Us */
