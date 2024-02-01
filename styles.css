@@ -1,12 +1,30 @@
+.ptop{
+padding: 2rem 0 2rem 0;
+}
+
 .PL, .PP2, .NVL {
   margin-bottom: 15rem;
 }
 
+/* Navbar */
+.d-inline-block{
+  margin: 0 1rem 0 1rem;
+}
 
 .navbar{
   font-family: 'Roboto', sans-serif;
+  padding-left: 60px;
 }
 
+.navbar-nav{
+  padding-right: 100px;
+}
+
+.nav-item{
+  padding-left: 0.5rem;
+}
+
+/* Navbar */
 hr{
     width: 5%;
     border-width: 10px;
@@ -54,14 +72,14 @@ h3 {
 
 h1{
     font-size: 5rem;
-    padding: 5rem 0 0 0;
     font-family: 'Roboto', sans-serif;
     font-weight: bolder;
     text-shadow: 1px 1px 0 #080808;
 }
 /* btn */
 .button {
-  padding: 0.75em 1em;
+  margin-right: 1rem;
+  padding: 0.75rem 1rem;
   border: none;
   border-radius: 5px;
   font-weight: bold;
