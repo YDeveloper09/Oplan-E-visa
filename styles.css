@@ -19,16 +19,35 @@ body{
   .nav-item{
     padding-left: 0.5rem;
   }
-  
-  /* Navbar */
+
+  .PNPLogo{
+    size:10px
+  }
+  /* -Navbar */
+
+/* Upper Content */
+
+  #Upper h1{
+    font-size: 5rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0 #080808;
+}
+
   .ptop{
+    font-family: 'Open Sans', sans-serif;
     padding: 2rem 0 2rem 0;
     text-align: left;
     }
-    
-  .PL, .PP2, .NVL {
-      margin-bottom: 15rem;
+  .plogo{
+      padding-left: 100px;
+  
+    }
+  .PL{
+      width:140px; 
+      height:180px;
   }
+ 
+ 
     
   hr{
       width: 5%;
@@ -41,13 +60,13 @@ body{
   }
   
   
-  h2{
+  .sectionheader{
     font-size: 3rem;
     color: rgb(10, 116, 134);
     padding-top: 6rem;
   }
   
-  h3 {
+  .sectionsubheader {
     font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     font-style: italic;
@@ -59,28 +78,16 @@ body{
       text-align: left;
       background-image: url(bgg.png);
       background-size: cover;
-      object-position: 15% 100%;
-      height: max-content;
       color: rgb(234, 237, 238);
-      padding: 5rem 0 0 5rem;
-      font-family: 'Open Sans', sans-serif;
+      padding: 5rem 0 9rem 5rem;
       font-size: 1.5rem;
       text-shadow: 0.25px 0.25px 0 #080808;
   }
   
-  .PNPLogo{
-    size:10px
-  }
-  
-  
-  #Upper h1{
-      font-family:'Roboto', sans-serif;
-      font-size: 5rem;
-      font-weight: bolder;
-      text-shadow: 1px 1px 0 #080808;
-  }
+  /* -Upper */
+
   /* btn */
-  .button {
+  .btn1{
     margin-right: 1rem;
     padding: 0.75rem 1rem;
     border: none;
@@ -97,14 +104,14 @@ body{
     outline: 2px solid #2c9caf;
   }
   
-  button:hover {
+  .btn1:hover {
     color: #ffffff;
     transform: scale(1.1);
     outline: 2px solid #70bdca;
     box-shadow: 4px 5px 17px -4px #03b15a;
   }
   
-  button::before {
+  .btn1::before {
     content: "";
     position: absolute;
     left: -50px;
@@ -117,9 +124,10 @@ body{
     transition: width 1000ms;
   }
   
-  button:hover::before {
+  .btn1:hover::before {
     width: 250%;
   }
+  /*-btn1 */
   
   /* btn2 */
   .button2 {
@@ -160,16 +168,18 @@ body{
   .button2:hover::before {
     width: 200%;
   }
+  /* -btn2 */
+ 
   
   /* drpdwn */
   .custom-select {
     position: relative;
     padding-top: 3rem;
     margin-bottom: 6rem;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .custom-select select {
-    font-family: 'Open Sans', sans-serif;
     appearance: none;
     -webkit-appearance: none;
     width: auto;
@@ -200,12 +210,12 @@ body{
     width: 12px;
     height: 12px;
   }
+  /* -drpdwn */
   
-  /* drpdwn */
+
   
-  /* CN */
+  /* ControlNUmber */
   .CN{
-    font-family: 'Open Sans', sans-serif;
     appearance: none;
     -webkit-appearance: none;
     width: auto;
@@ -225,8 +235,7 @@ body{
    padding-bottom: 5px;
    cursor: pointer;
   }
-  
-  /* CN */
+  /* -ControlNumber*/
   
   
   
@@ -260,6 +269,7 @@ body{
   /* NVPPO Offial */
   
   
+
   /* Contact-Us */
   #Contact-Us {
     height:max-content;
@@ -288,3 +298,24 @@ body{
   }
   
   /* Contact-Us */
+
+  /* mediaquery */
+  @media only screen and (max-width: 1199px) {
+    #Upper{
+      text-align: center;
+    }
+    
+    .plogo {
+      padding-left: 0;
+      margin-top: 100px;
+    }
+    .CN{
+      margin: 30px 0 0 42px;
+    }
+
+    .PL{
+      width:100px; 
+      height:140px;
+    }
+  }
+  /* -mediaquery */
